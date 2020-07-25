@@ -1,0 +1,92 @@
+
+/*------- General Styling --------*/
+
+body {
+  margin: 0;
+  background-color: #CCCCCC;
+  font-family:'Courier New', Courier, monospace;
+}
+
+header {
+  background-color: #595959;
+  height: 115px
+}
+
+.logo {
+  color: #F2F2F2;
+  font-family:verdana,  sans-serif;
+  font-size: 35px;
+  text-align: center;
+  margin: 0px;
+  padding: 18px 0 0 0;
+}
+
+header h2{
+  font-size: 18px;
+  font-family:'Courier New', Courier, monospace;
+  text-align:center;
+  color: #F2F2F2;
+  margin-top:4px;
+}
+
+footer {
+  background-color:#595959;
+}
+div {
+  padding:0 20%;
+  margin:35px 0;
+}
+main {
+  padding:10%;
+}
+
+/*---- Type-----*/
+
+h1, h2, h3{
+  text-align: center;
+  font-family: noto-sans, 'Courier New', Courier;
+}
+main p {
+  text-align: center;
+}
+
+p, li{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight:200;
+  margin-bottom: 0;
+  line-height:1.75em;
+}
+
+footer p{
+  text-align:center;
+  font-family:'Courier New', Courier, monospace;
+  color:#A5A5A5
+}
+
+a{
+  text-decoration: none;
+  font-weight: 400;
+}
+a:link    {color:#33261D;}
+a:visited {color: #6B6D76;}
+a:hover   {color:#A5A5A5;}
+a:active  {color:#334E58;}
+
+hr {
+  border: 1px solid;
+}
+
+/* --- Image Element --- */
+
+img.display {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+  width:200px;
+  border-radius:10px;
+}
+
+
+
+
